@@ -1,0 +1,17 @@
+@font-face{font-family:Figtree;src:url(../fonts/Figtree-Italic-VariableFont_wght.ttf)}
+:root{--yellow-color:#F4D04E;--grey-950:#111;--grey-500:#6B6B6B;--white:#FFF;--font-family:Figtree}
+.preset-1{font-weight:900;font-size:24px;line-height:150%;letter-spacing:0;margin-bottom:12px}
+.preset-2{font-weight:600;font-size:16px;line-height:150%;letter-spacing:0;color:var(--grey-500);margin-bottom:12px}
+.preset-3{font-weight:600;font-size:14px;line-height:150%;letter-spacing:0;margin-bottom:12px}
+.preset-3.bold{font-weight:900;margin-bottom:12px}
+*{box-sizing:border-box}
+html,body,main{height:100%}
+body{background:var(--yellow-color);font-family:var(--font-family)}
+main{display:flex;flex-direction:row;justify-content:center;align-items:center}
+.box{width:385px;background:#FFF;max-width:96%;border-radius:20px;padding:16px;border:1px solid var(--grey-950);box-shadow:8px 8px 0 #000;color:var(--grey-950)}
+.fluid-img{width:100%;height:auto;border-radius:10px;margin-bottom:16px}
+.badge{background:var(--yellow-color);color:var(--grey-950);border-radius:4px;padding:4px 12px;margin-bottom:8px;width:fit-content}
+.d-flex{display:flex;flex-direction:row;justify-content:start;align-items:center;gap:8px}
+.avatar{width:32px;height:auto}
+.attribution{font-size:11px;text-align:center;margin-bottom:20px}
+.attribution a{color:#000}
